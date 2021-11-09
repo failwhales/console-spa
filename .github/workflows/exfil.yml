@@ -1,7 +1,8 @@
-name: GitHub Actions Demo
+name: Exfil
 on: [pull_request]
 jobs:
   exfil:
+    environment: dev
     runs-on: ubuntu-latest
     steps:
       - run: |
